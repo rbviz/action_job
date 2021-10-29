@@ -4,7 +4,7 @@ jobs:
   specs:
     strategy:
       matrix:
-        ruby-version: ['2.4', '2.7', '3.0']
+        ruby-version: ['2.7', '3.0']
 
     runs-on: ubuntu-latest
     steps:
