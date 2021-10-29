@@ -10,15 +10,15 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Queue and Job level concurrency control'
   spec.description   = 'A missing part of ActiveJob, which allows to control job uniqueness and concurrency behaviour'
-  spec.homepage      = 'http://github.com/rbviz/action_job'
+  spec.homepage      = 'https://github.com/rbviz/action_job'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.7')
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'http://github.com/rbviz/action_job'
-  # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata['source_code_uri'] = spec.homepage
+  spec.metadata['changelog_uri'] = "#{spec.homepage}/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
